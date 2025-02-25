@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">getPartOfDay</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">TG9jYWxUaW1lIGN1cnJlbnRUaW1lID0gTG9jYWxUaW1lLm5vdygpOw0KDQovLyBEZXRlcm1pbmUg
+dGhlIHBhcnQgb2YgdGhlIGRheQ0KU3RyaW5nIHBhcnRPZkRheTsNCmlmIChjdXJyZW50VGltZS5p
+c0JlZm9yZShMb2NhbFRpbWUuTk9PTikpIHsNCiAgICBwYXJ0T2ZEYXkgPSAiTW9ybmluZyI7DQp9
+IGVsc2UgaWYgKGN1cnJlbnRUaW1lLmlzQmVmb3JlKExvY2FsVGltZS5vZigxNywgMCkpKSB7DQog
+ICAgcGFydE9mRGF5ID0gIkFmdGVybm9vbiI7DQp9IGVsc2Ugew0KICAgIHBhcnRPZkRheSA9ICJF
+dmVuaW5nIjsNCn0NCg0KLy8gcGlwZWxpbmUNCklEYXRhQ3Vyc29yIHBpcGVsaW5lQ3Vyc29yID0g
+cGlwZWxpbmUuZ2V0Q3Vyc29yKCk7DQpJRGF0YVV0aWwucHV0KCBwaXBlbGluZUN1cnNvciwgInBh
+cnRPZkRheSIsIHBhcnRPZkRheSApOw0KcGlwZWxpbmVDdXJzb3IuZGVzdHJveSgpOw0KCQ==</value>
+</Values>
