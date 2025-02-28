@@ -1486,19 +1486,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">weatherDoc</value>
-        <value name="field_type">recref</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <value name="modifiable">true</value>
-        <value name="rec_ref">usergroupdemo.doctypes:weatherDT</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
         <value name="field_name">weatherDocString</value>
         <value name="field_type">recref</value>
         <value name="field_dim">0</value>
@@ -1682,5 +1669,8 @@
 </MAPCOPY>
 </MAP>
 </MAPINVOKE>
+
+<MAPDELETE FIELD="/weatherDoc;4;0;usergroupdemo.doctypes:weatherDT">
+</MAPDELETE>
 </MAP>
 </FLOW>

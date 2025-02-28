@@ -1661,5 +1661,26 @@
 
 <MAPCOPY FROM="/weatherDoc;4;0;usergroupdemo.doctypes:weatherDT/current;2;0/last_updated;1;0" TO="/weatherDocString;4;0;usergroupdemo.doctypes:weatherDT2/current;2;0/last_updated;1;0">
 </MAPCOPY>
+
+<MAPINVOKE SERVICE="pub.string:objectToString" VALIDATE-IN="$none" VALIDATE-OUT="$none" INVOKE-ORDER="0">
+
+  <!-- nodes -->
+
+<MAP MODE="INVOKEINPUT">
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/weatherDoc;4;0;usergroupdemo.doctypes:weatherDT/current;2;0/temp_f;3.4;0" TO="/object;3;0">
+</MAPCOPY>
+</MAP>
+
+<MAP MODE="INVOKEOUTPUT">
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/string;1;0" TO="/weatherDocString;4;0;usergroupdemo.doctypes:weatherDT2/current;2;0/temp_f;1;0">
+</MAPCOPY>
+</MAP>
+</MAPINVOKE>
 </MAP>
 </FLOW>
